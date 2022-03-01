@@ -14,17 +14,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <style>
-    ul
-	{
-    background: url('https://i.pinimg.com/originals/ef/26/2b/ef262b0b03479cdf5109cf719100f186.gif') fixed;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-	}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>M4isv</title>
   
@@ -32,7 +23,7 @@
   
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="init/css/styles.css">
 </head>
 
 <body > 
@@ -43,20 +34,6 @@
       		  	<a href="#" data-target="mobile-demo" class="sidenav-trigger">
 	  	  	<i class="material-icons">menu</i>
      		 	</a>
-
-
-<audio id="myAudio">
-  <source src="funk.mp3" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-<!--
-
-<button onclick="playAudio()" type="button">Play Audio</button>
-<button onclick="pauseAudio()" type="button">Pause Audio</button>
--->
-
 
 		</div>
 	</nav>
@@ -90,7 +67,7 @@
                 <img src="https://avatars.githubusercontent.com/u/53246704?v=4" alt="M4isv" class="responsive-img circle">
 
 	        <div class="card-panel teal lighten-2  white-text text-darken-2">
-		    <h5 onclick="playAudio()"> hello, i am M4isv </h5>
+		    <h5> hello, i am M4isv </h5>
 	        </div>
 
 		<div class="card-panel teal lighten-2  white-text text-darken-2">
@@ -100,11 +77,11 @@
 
 		<div class="row">
       			<div class="col s6">
-				<img src="https://play-lh.googleusercontent.com/m3oqSZCwmitiZ-Im-CQu_rqT5eLHilOp5IudBynv3COJUumFzuQaP2dgTDxRL_03f4x2=s200-rw" class="responsive-img circle" alt="termux">
+				<img src="init/img/icons/termux.webp" class="responsive-img circle" alt="termux">
 			</div>
 
       		<div class="col s6">
-			<img src="https://play-lh.googleusercontent.com/uoDc5fdPwYrettHHEOsp76eOCpq3fvfkBtnbeML037aQw0t7RBL6-2PBUXOv9gRf3ps=s200-rw" alt="quickedit" class="responsive-img circle">
+			<img src="init/img/icons/quick.webp" alt="quickedit" class="responsive-img circle">
 
 
 		</div>
@@ -113,13 +90,13 @@
 
 		
       		<div class="col s6">
-			<img src="https://play-lh.googleusercontent.com/bZpyeXH1MEx_mvVUhtflPn8fpySPm2KxTgt57SmtWflvBYdnHLuyw2GUxRON0guW5Q=s200-rw" alt="spck pro" class="responsive-img circle">
+			<img src="init/img/icons/spck.webp" alt="spck pro" class="responsive-img circle">
 
 		</div>
 
 
       		<div class="col s6">
-			<img src="https://play-lh.googleusercontent.com/dVZocgiXxeXnppeSz2BQunEoDdEmlOeDUBTABwLv6RmzlnnuIgDyT21uuYxkv0i6ng=s200-rw" alt="trabedit pro" class="responsive-img circle">
+			<img src="init/img/icons/trab.webp" alt="trabedit pro" class="responsive-img circle">
 
 		</div>
 
@@ -131,51 +108,13 @@
 	<div class="container">
 		<h5 class="center-align white-text text-darken-2"> which programming languages do i know? </h5>
 		<div class="carousel z-depth-3" id="linguagems">
-    			<a class="carousel-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"></a>
-  		       <a class="carousel-item" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Javascript_Logo.p
-ng/2000px-Javascript_Logo.png"></a>
+    			<a class="carousel-item" href="#"><img src="init/img/icons/py.png"></a>
+  		       <a class="carousel-item" href="#"><img src="init/img/icons/js.png"></a>
 		</div>
     
 	</div>
 
+<script src="init/js/main.js"></script>
 
-
-  <!--music-->
-  <script>
-
-	var x = document.getElementById("myAudio");
-
-	function playAudio() {
-  		x.play();
-}
-
-	  function pauseAudio() {
-		  x.pause();
-	}
-
-</script>
-
-
-
-
-  <!-- Project -->
-  <script>
-	document.addEventListener('DOMContentLoaded', function() {
-    	let elems = document.querySelectorAll('.sidenav');
-    	let instances = M.Sidenav.init(elems,);
-
-  });
-  </script>
-
-<script>
-	document.addEventListener('DOMContentLoaded', function() {
-    let  elems = document.querySelectorAll('.carousel');
-    let instances = M.Carousel.init(elems,{ indicators: true});
-  });
-
-
-	
-
-</script>
 </body>
 </html>
