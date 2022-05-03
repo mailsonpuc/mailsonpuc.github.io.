@@ -44,11 +44,23 @@ ul
 
 
 
+#img1:hover {
+  background-color: #FE2EF7;
+}
+
+#img2:hover {
+  background-color: #00FF40;
+}
 
 
-/*
- * @media screen and (min-width: 968px) {
-  ul {
-    background: black;
-  }
-*/
+#img3:hover {
+  background-color:  #00FF40;
+}
+
+
+#img4:hover {
+  background-color:  #FE2EF7;
+}
+
+
+
