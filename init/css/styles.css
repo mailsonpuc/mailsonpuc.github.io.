@@ -28,6 +28,17 @@ ul
     margin: 0;
 	}
 
+#avatar {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 4s;
+}
+
+#avatar:hover {
+  width: 300px;
+  height: 300px;
+}
+
  /*
 @media screen and (min-width: 968px) {
   ul {
