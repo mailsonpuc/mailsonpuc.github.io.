@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     let  elems = document.querySelectorAll('.carousel');
-    let instances = M.Carousel.init(elems,{ indicators: true});
-  });
+    let instances = M.Carousel.init(elems,{ 
+	    indicators: false,
+	    duration: 200,
+    });
 
+
+  });
