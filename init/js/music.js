@@ -1,15 +1,13 @@
 let button = document.querySelector("#btn")
-console.log(button)
+//console.log(button)
 
 let x = document.querySelector("#myAudio")
-console.log(x)
-
+//console.log(x)
 
 function playAudio() { 
   x.play(); 
 } 
 
-
-button.addEventListener("click", function(){
-    playAudio()
-})
+button.onclick=function(){
+	playAudio()
+}
