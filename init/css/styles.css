@@ -22,11 +22,12 @@ body {
 
 ul
 	{
-    background: url('https://i.pinimg.com/originals/ef/26/2b/ef262b0b03479cdf5109cf719100f186.gif') fixed;
+    background: url('nature.gif') fixed;
     background-size: cover;
     padding: 0;
     margin: 0;
 	}
+
 
 #avatar {
   width: 100px;
@@ -34,13 +35,19 @@ ul
   transition: width 2s, height 4s;
 }
 
+
 #avatar:hover {
   width: 300px;
   height: 300px;
 }
 
- /*
-@media screen and (min-width: 968px) {
+
+
+
+
+
+/*
+ * @media screen and (min-width: 968px) {
   ul {
     background: black;
   }
